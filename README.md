@@ -1,4 +1,4 @@
-# 💫 About Me:
+#  👨🏻‍💻About Me:
 🔭 I’m currently a student at Adamas University<br>🤝 I’m looking for help with knowing how to do some advanced coding <br>🌱 I’m currently learning Java, Java Script, Html, CSS.
 
 
