@@ -1,7 +1,7 @@
 {
-  "total_code": 36163,
-  "total_comment": 721,
-  "total_blank": 3467,
+  "total_code": 41809,
+  "total_comment": 735,
+  "total_blank": 3870,
   "per_repo": {
     "CSE11112-Complete-Notes-Introduction-to-AI": {
       "code": 3118,
@@ -19,9 +19,9 @@
       "blank": 526
     },
     "hawike22405": {
-      "code": 389,
-      "comment": 58,
-      "blank": 78
+      "code": 6035,
+      "comment": 72,
+      "blank": 481
     },
     "Pong-Game": {
       "code": 456,
@@ -40,16 +40,16 @@
     }
   },
   "per_language": {
-    "JSON": 19057,
-    "TypeScript": 6807,
+    "JSON": 19891,
+    "TypeScript": 9354,
     "Python": 4893,
-    "Markdown": 4128,
+    "Markdown": 4187,
+    "JavaScript": 2247,
     "CSS": 807,
-    "JavaScript": 227,
-    "YAML": 101,
-    "HTML": 42,
+    "SVG": 136,
+    "YAML": 116,
+    "HTML": 108,
     "Text": 35,
-    "SVG": 31,
     "TOML": 23,
     "Dockerfile": 12
   }
