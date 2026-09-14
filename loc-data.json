@@ -1,0 +1,56 @@
+{
+  "total_code": 36163,
+  "total_comment": 721,
+  "total_blank": 3467,
+  "per_repo": {
+    "CSE11112-Complete-Notes-Introduction-to-AI": {
+      "code": 3118,
+      "comment": 0,
+      "blank": 1055
+    },
+    "DocKavach": {
+      "code": 9835,
+      "comment": 216,
+      "blank": 597
+    },
+    "DocKavach_v2": {
+      "code": 9801,
+      "comment": 247,
+      "blank": 526
+    },
+    "hawike22405": {
+      "code": 389,
+      "comment": 58,
+      "blank": 78
+    },
+    "Pong-Game": {
+      "code": 456,
+      "comment": 24,
+      "blank": 80
+    },
+    "ridekolkata": {
+      "code": 9348,
+      "comment": 12,
+      "blank": 362
+    },
+    "sysops": {
+      "code": 3216,
+      "comment": 164,
+      "blank": 769
+    }
+  },
+  "per_language": {
+    "JSON": 19057,
+    "TypeScript": 6807,
+    "Python": 4893,
+    "Markdown": 4128,
+    "CSS": 807,
+    "JavaScript": 227,
+    "YAML": 101,
+    "HTML": 42,
+    "Text": 35,
+    "SVG": 31,
+    "TOML": 23,
+    "Dockerfile": 12
+  }
+}
