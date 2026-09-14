@@ -1,0 +1,52 @@
+import type { ThemeName, ThemePalette } from "../pacman-extension/types.js";
+
+const themes: Record<ThemeName, ThemePalette> = {
+  "github-light": {
+    background: "#f6f8fa",
+    wall: "#d0d7de",
+    floor: "#ffffff",
+    gridLine: "#d8dee4",
+    pellet: "#2da44e",
+    contributionLevels: ["#9be9a8", "#40c463", "#30a14e", "#216e39"],
+    powerPellet: "#bf8700",
+    pacman: "#f5b700",
+    frightenedGhost: "#0969da",
+    ghosts: ["#ffd84d", "#49b6ff", "#ff4d57", "#ff7ce5"],
+    text: "#24292f",
+    monthLabel: "#57606a",
+    scorePanel: "#ffffff",
+    gradientTint: "#ffffff",
+    gradientDeep: "#d8dee4",
+    mazeOuter: "#ffffff",
+    mazeInner: "#0969da",
+    eye: "#24292f",
+    powerRing: "#bf8700",
+    shadowOpacity: 0.12,
+  },
+  "github-dark": {
+    background: "#0d1117",
+    wall: "#30363d",
+    floor: "#161b22",
+    gridLine: "#21262d",
+    pellet: "#39d353",
+    contributionLevels: ["#0e4429", "#006d32", "#26a641", "#39d353"],
+    powerPellet: "#d29922",
+    pacman: "#f2cc60",
+    frightenedGhost: "#58a6ff",
+    ghosts: ["#ffd84d", "#49b6ff", "#ff5a5f", "#ff8cf0"],
+    text: "#e6edf3",
+    monthLabel: "#8b949e",
+    scorePanel: "#161b22",
+    gradientTint: "#111827",
+    gradientDeep: "#04070d",
+    mazeOuter: "#04070d",
+    mazeInner: "#f8fbff",
+    eye: "#111827",
+    powerRing: "#ffffff",
+    shadowOpacity: 0.38,
+  },
+};
+
+export function getThemePalette(theme: ThemeName): ThemePalette {
+  return themes[theme];
+}

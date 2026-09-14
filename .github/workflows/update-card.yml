@@ -41,10 +41,28 @@ jobs:
       - name: Generate card
         run: python generate_card.py
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: pacman/package-lock.json
+
+      - name: Install Pac-Man dependencies
+        working-directory: ./pacman
+        run: npm ci
+
+      - name: Generate Pac-Man contribution outputs
+        working-directory: ./pacman
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run generate
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-card.svg loc-badge.json loc-data.json
+          git add profile-card.svg loc-badge.json loc-data.json pacman/dist/
           git diff --staged --quiet || git commit -m "chore: auto-update profile card & LOC stats"
           git push

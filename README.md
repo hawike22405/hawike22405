@@ -39,5 +39,14 @@
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=hawike22405&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
+<h3 align="center">🕹️ Pac-Man eats my commits</h3>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="pacman/dist/pacman-contribution-game-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="pacman/dist/pacman-contribution-game-light.svg">
+    <img alt="Pac-Man chomping through my GitHub contribution graph" src="pacman/dist/pacman-contribution-game-dark.svg">
+  </picture>
+</p>
+
 ---
 [![](https://komarev.com/ghpvc/?username=hawike22405&style=flat-square&color=blueviolet)](https://visitcount.itsvg.in)

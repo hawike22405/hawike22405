@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022", "DOM"],
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "rootDir": ".",
+    "outDir": "dist/runtime"
+  },
+  "include": [
+    "config.ts",
+    "scripts/**/*.ts",
+    "pacman-extension/**/*.ts",
+    "renderer/**/*.ts",
+    "pacman-contribution-graph.d.ts"
+  ],
+  "exclude": ["dist", "node_modules"]
+}
