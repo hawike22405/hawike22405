@@ -16,6 +16,7 @@ dark_mode.svg and light_mode.svg.
 
 import base64
 import io
+import json
 import os
 import sys
 import textwrap
@@ -100,7 +101,7 @@ def png_to_data_uri(img: Image.Image) -> str:
 
 
 def fetch_github_stats(user: str) -> dict:
-    stats = {"repos": "?", "followers": "?", "following": "?"}
+    stats = {"repos": "?", "followers": "?", "following": "?", "loc": "?"}
     try:
         resp = requests.get(f"https://api.github.com/users/{user}", timeout=15)
         if resp.ok:
@@ -110,6 +111,21 @@ def fetch_github_stats(user: str) -> dict:
             stats["following"] = data.get("following", "?")
     except Exception:
         pass
+    # Read LOC data if available (written by count_loc.py)
+    loc_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "loc-data.json")
+    if os.path.exists(loc_path):
+        try:
+            with open(loc_path) as f:
+                loc_data = json.load(f)
+            total = loc_data.get("total_code", 0)
+            if total >= 1_000_000:
+                stats["loc"] = f"{total / 1_000_000:.1f}M"
+            elif total >= 1_000:
+                stats["loc"] = f"{total / 1_000:.1f}K"
+            else:
+                stats["loc"] = str(total)
+        except Exception:
+            pass
     return stats
 
 
@@ -181,6 +197,7 @@ def build_svg(ascii_data_uri: str, ascii_w: int, ascii_h: int, cfg: dict, stats:
         ("Repos", " ............. ", stats["repos"]),
         ("Followers", " ......... ", stats["followers"]),
         ("Following", " ......... ", stats["following"]),
+        ("Lines of Code", " .... ", stats["loc"]),
     ]
     for key, dots, val in stat_fields:
         body.append(

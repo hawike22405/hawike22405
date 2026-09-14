@@ -2,14 +2,14 @@ name: Update profile card
 
 on:
   schedule:
-    # Runs every 12 hours so the ASCII art stays in sync if you change
-    # your GitHub avatar, even without a push.
-    - cron: "0 */12 * * *"
+    # Runs every 6 hours so the LOC counter and ASCII art stay fresh.
+    - cron: "0 */6 * * *"
   workflow_dispatch: {}
   push:
     branches: [main]
     paths:
       - "generate_card.py"
+      - "count_loc.py"
       - ".github/workflows/update-card.yml"
 
 permissions:
@@ -27,11 +27,16 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install system font (DejaVu Sans Mono)
-        run: sudo apt-get update && sudo apt-get install -y fonts-dejavu-core
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-dejavu-core cloc
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: pip install -r requirements.txt
+
+      - name: Count lines of code across all repos
+        run: python count_loc.py
 
       - name: Generate card
         run: python generate_card.py
@@ -40,6 +45,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-card.svg
-          git diff --staged --quiet || git commit -m "chore: auto-update profile card"
+          git add profile-card.svg loc-badge.json loc-data.json
+          git diff --staged --quiet || git commit -m "chore: auto-update profile card & LOC stats"
           git push
