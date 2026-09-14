@@ -25,6 +25,7 @@
 # 📊 GitHub Stats:
 ![Lines of Code](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/hawike22405/hawike22405/main/loc-badge.json&style=for-the-badge)
 <br/>
+<img src="https://isometric-contributions-spectrewolf8.onrender.com/api/graph?username=hawike22405&theme=neon&stats=true" alt="GitHub Isometric Contributions" /><br/>
 ![](https://github-readme-stats.shion.dev/api?username=hawike22405&theme=shadow_red&hide_border=false&include_all_commits=true&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=hawike22405&theme=shadow_red&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=hawike22405&theme=shadow_red&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
