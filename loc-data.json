@@ -1,7 +1,7 @@
 {
-  "total_code": 42699,
-  "total_comment": 1114,
-  "total_blank": 4056,
+  "total_code": 45245,
+  "total_comment": 1430,
+  "total_blank": 4723,
   "per_repo": {
     "CSE11112-Complete-Notes-Introduction-to-AI": {
       "code": 3118,
@@ -29,9 +29,9 @@
       "blank": 80
     },
     "ridekolkata": {
-      "code": 9348,
-      "comment": 12,
-      "blank": 362
+      "code": 11894,
+      "comment": 328,
+      "blank": 1029
     },
     "sysops": {
       "code": 4107,
@@ -40,15 +40,15 @@
     }
   },
   "per_language": {
-    "JSON": 19891,
-    "TypeScript": 9354,
+    "TypeScript": 17179,
+    "JSON": 14333,
     "Python": 5783,
-    "Markdown": 4186,
+    "Markdown": 4157,
     "JavaScript": 2247,
-    "CSS": 807,
+    "CSS": 1106,
     "SVG": 136,
+    "HTML": 117,
     "YAML": 116,
-    "HTML": 108,
     "Text": 35,
     "TOML": 24,
     "Dockerfile": 12
