@@ -1,7 +1,7 @@
 {
-  "total_code": 301411,
-  "total_comment": 55032,
-  "total_blank": 44038,
+  "total_code": 303805,
+  "total_comment": 55047,
+  "total_blank": 44159,
   "per_repo": {
     "CSE11112-Complete-Notes-Introduction-to-AI": {
       "code": 3118,
@@ -26,12 +26,12 @@
     "Pong-Game": {
       "code": 456,
       "comment": 24,
-      "blank": 80
+      "blank": 81
     },
     "ridekolkata": {
-      "code": 11916,
-      "comment": 328,
-      "blank": 1036
+      "code": 14310,
+      "comment": 343,
+      "blank": 1156
     },
     "sysops": {
       "code": 260248,
@@ -41,19 +41,19 @@
   },
   "per_language": {
     "Python": 259457,
-    "TypeScript": 17201,
-    "JSON": 15289,
-    "Markdown": 3979,
-    "JavaScript": 2339,
+    "TypeScript": 17205,
+    "JSON": 17044,
+    "Markdown": 4189,
+    "JavaScript": 2752,
     "Text": 1288,
-    "CSS": 1106,
+    "CSS": 1107,
     "YAML": 164,
     "reStructuredText": 151,
     "SVG": 136,
-    "HTML": 117,
+    "HTML": 118,
     "PowerShell": 108,
     "DOS Batch": 40,
     "TOML": 24,
-    "Dockerfile": 12
+    "Dockerfile": 22
   }
 }
