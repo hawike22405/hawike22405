@@ -1,6 +1,6 @@
 {
-  "total_code": 311415,
-  "total_comment": 55056,
+  "total_code": 311395,
+  "total_comment": 55076,
   "total_blank": 44199,
   "per_repo": {
     "CSE11112-Complete-Notes-Introduction-to-AI": {
@@ -34,13 +34,13 @@
       "blank": 1196
     },
     "sysops": {
-      "code": 260248,
-      "comment": 54145,
+      "code": 260228,
+      "comment": 54165,
       "blank": 40262
     }
   },
   "per_language": {
-    "Python": 259457,
+    "Python": 259437,
     "JSON": 22140,
     "TypeScript": 18506,
     "Markdown": 4354,
