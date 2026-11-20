@@ -76,7 +76,6 @@
 
 **Terminals & Shells**
 
-![Kitty](https://img.shields.io/badge/Kitty_Terminal-000000?style=for-the-badge&logo=gnometerminal&logoColor=white)
 ![Windows Terminal](https://img.shields.io/badge/Windows_Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
 ![Zsh](https://img.shields.io/badge/Zsh-1A2C34?style=for-the-badge&logo=zsh&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white)
