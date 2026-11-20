@@ -17,7 +17,7 @@
 🔭 I'm currently a student at Adamas University<br>🤝 I'm looking for help with knowing how to do some advanced coding <br>🌱 I'm currently learning Java, Java Script, Html, CSS.
 
 ## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/hawike22405) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/Tipsy_spirit_5002) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@Sayanpal22405) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:gamesrfun22405@gmail.com) ![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/hawike22405) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/Tipsy_spirit_5002) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@Sayanpal22405) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:gamesrfun22405@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/sayan-pal-446b9a238/)
 
 
 # 💻 Tech Stack:
