@@ -1,7 +1,7 @@
 {
-  "total_code": 328734,
-  "total_comment": 55607,
-  "total_blank": 45706,
+  "total_code": 330033,
+  "total_comment": 55653,
+  "total_blank": 45862,
   "per_repo": {
     "CSE11112-Complete-Notes-Introduction-to-AI": {
       "code": 3118,
@@ -28,6 +28,11 @@
       "comment": 120,
       "blank": 292
     },
+    "Panaroma-Workspace-Switcher": {
+      "code": 1299,
+      "comment": 46,
+      "blank": 156
+    },
     "Pong-Game": {
       "code": 456,
       "comment": 24,
@@ -50,23 +55,27 @@
     }
   },
   "per_language": {
-    "Python": 259685,
+    "Python": 260127,
     "JSON": 26704,
     "TypeScript": 19916,
     "JavaScript": 7690,
-    "Markdown": 5164,
+    "Markdown": 5228,
     "CSS": 3392,
     "JSX": 3111,
     "Text": 1295,
     "Rust": 740,
+    "QML": 585,
     "HTML": 343,
     "YAML": 177,
     "reStructuredText": 151,
     "SVG": 136,
     "PowerShell": 108,
+    "Bourne Shell": 88,
+    "GLSL": 80,
+    "Lua": 56,
     "DOS Batch": 40,
     "TOML": 36,
-    "Bourne Shell": 24,
-    "Dockerfile": 22
+    "Dockerfile": 22,
+    "Bourne Again Shell": 8
   }
 }
