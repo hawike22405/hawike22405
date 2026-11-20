@@ -20,7 +20,6 @@
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/hawike22405) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/Tipsy_spirit_5002) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@Sayanpal22405) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:gamesrfun22405@gmail.com)
 
 # 💻 Tech Stack:
-## 💻 Tech Stack
 
 ### Programming Languages
 ![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
@@ -57,6 +56,7 @@
 ![SIM8085](https://img.shields.io/badge/SIM8085-2C3E50?style=for-the-badge&logoColor=white)
 
 ### 🛠️ Tools & Platforms
+
 
 **Version Control & Containers**
 
