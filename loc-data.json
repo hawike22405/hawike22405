@@ -1,6 +1,6 @@
 {
-  "total_code": 331262,
-  "total_comment": 55726,
+  "total_code": 331230,
+  "total_comment": 55730,
   "total_blank": 46120,
   "per_repo": {
     "CSE11112-Complete-Notes-Introduction-to-AI": {
@@ -28,11 +28,6 @@
       "comment": 188,
       "blank": 384
     },
-    "mongodb-rate-limiter": {
-      "code": 566,
-      "comment": 5,
-      "blank": 146
-    },
     "Panaroma-Workspace-Switcher": {
       "code": 1299,
       "comment": 46,
@@ -42,6 +37,11 @@
       "code": 456,
       "comment": 24,
       "blank": 81
+    },
+    "Redis_Rate_Limiter": {
+      "code": 534,
+      "comment": 9,
+      "blank": 146
     },
     "ridekolkata": {
       "code": 21268,
@@ -60,7 +60,7 @@
     }
   },
   "per_language": {
-    "Python": 260781,
+    "Python": 260748,
     "JSON": 26718,
     "TypeScript": 19916,
     "JavaScript": 7690,
@@ -72,7 +72,7 @@
     "QML": 585,
     "HTML": 343,
     "Bourne Shell": 331,
-    "YAML": 196,
+    "YAML": 197,
     "reStructuredText": 151,
     "SVG": 136,
     "PowerShell": 108,
