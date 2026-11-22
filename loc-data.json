@@ -1,7 +1,7 @@
 {
-  "total_code": 331230,
-  "total_comment": 55730,
-  "total_blank": 46120,
+  "total_code": 331135,
+  "total_comment": 55734,
+  "total_blank": 46040,
   "per_repo": {
     "CSE11112-Complete-Notes-Introduction-to-AI": {
       "code": 3118,
@@ -24,9 +24,9 @@
       "blank": 502
     },
     "lorenz-blake3-cipher": {
-      "code": 1944,
-      "comment": 188,
-      "blank": 384
+      "code": 1849,
+      "comment": 192,
+      "blank": 304
     },
     "Panaroma-Workspace-Switcher": {
       "code": 1299,
@@ -64,7 +64,7 @@
     "JSON": 26718,
     "TypeScript": 19916,
     "JavaScript": 7690,
-    "Markdown": 5522,
+    "Markdown": 5348,
     "CSS": 3392,
     "JSX": 3111,
     "Text": 1300,
@@ -72,10 +72,10 @@
     "QML": 585,
     "HTML": 343,
     "Bourne Shell": 331,
-    "YAML": 197,
+    "YAML": 261,
     "reStructuredText": 151,
     "SVG": 136,
-    "PowerShell": 108,
+    "PowerShell": 123,
     "GLSL": 80,
     "Lua": 56,
     "DOS Batch": 40,
