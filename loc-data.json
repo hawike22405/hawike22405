@@ -1,7 +1,7 @@
 {
   "total_code": 331152,
   "total_comment": 55734,
-  "total_blank": 46047,
+  "total_blank": 46046,
   "per_repo": {
     "CSE11112-Complete-Notes-Introduction-to-AI": {
       "code": 3118,
@@ -26,7 +26,7 @@
     "lorenz-blake3-cipher": {
       "code": 1865,
       "comment": 192,
-      "blank": 311
+      "blank": 310
     },
     "Panaroma-Workspace-Switcher": {
       "code": 1299,
