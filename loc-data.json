@@ -1,13 +1,8 @@
 {
-  "total_code": 331152,
-  "total_comment": 55734,
-  "total_blank": 46046,
+  "total_code": 329362,
+  "total_comment": 55769,
+  "total_blank": 45119,
   "per_repo": {
-    "CSE11112-Complete-Notes-Introduction-to-AI": {
-      "code": 3118,
-      "comment": 0,
-      "blank": 1055
-    },
     "DocKavach": {
       "code": 9835,
       "comment": 216,
@@ -19,7 +14,7 @@
       "blank": 526
     },
     "hawike22405": {
-      "code": 6123,
+      "code": 6124,
       "comment": 72,
       "blank": 502
     },
@@ -57,20 +52,25 @@
       "code": 260228,
       "comment": 54165,
       "blank": 40262
+    },
+    "zen-orbit-wheel": {
+      "code": 1327,
+      "comment": 35,
+      "blank": 128
     }
   },
   "per_language": {
-    "Python": 260748,
-    "JSON": 26718,
+    "Python": 260801,
+    "JSON": 26729,
     "TypeScript": 19916,
-    "JavaScript": 7690,
-    "Markdown": 5365,
-    "CSS": 3392,
+    "JavaScript": 8423,
+    "CSS": 3714,
     "JSX": 3111,
+    "Markdown": 2422,
     "Text": 1300,
     "Rust": 740,
     "QML": 585,
-    "HTML": 343,
+    "HTML": 377,
     "Bourne Shell": 331,
     "YAML": 261,
     "reStructuredText": 151,
